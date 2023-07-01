@@ -1,0 +1,46 @@
+@import './base.scss';
+@import './mixins.scss';
+@import './flexbox.scss';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  @include paddingX(2rem);
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+code {
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: block;
+  background-color: var(--color-background-mute);
+  border-radius: 4px;
+}
+
+input {
+  width: 100%;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+
+  &:hover {
+    border-color: var(--color-border-hover);
+  }
+}
+
+b {
+  font-weight: bold;
+}
