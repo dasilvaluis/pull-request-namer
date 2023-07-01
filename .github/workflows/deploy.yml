@@ -3,6 +3,7 @@ name: GHPages-Deploy
 permissions:
   id-token: write
   pages: write
+  contents: read
 
 # Controls when the workflow will run
 on:
