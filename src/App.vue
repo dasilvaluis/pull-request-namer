@@ -24,7 +24,7 @@ const ticketData = ref<{ branchName: string; requestTitle: string }>()
 main {
   display: flex;
   justify-content: center;
-  margin-top: 25vh;
+  margin-top: 20vh;
 }
 
 .wrapper {
