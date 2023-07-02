@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import ButtonIcon from '@/components/ButtonIcon.vue'
-import IconClipboard from '@/components/icons/IconClipboard.vue'
+import ButtonIcon from './ButtonIcon.vue'
+import IconClipboard from './icons/IconClipboard.vue'
 </script>
 
 <template>
@@ -28,9 +28,5 @@ code {
   right: 1rem;
   transform: translate(0, -50%);
   position: absolute;
-
-  svg {
-    fill: var(--color-icon);
-  }
 }
 </style>

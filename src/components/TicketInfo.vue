@@ -16,7 +16,7 @@ const props = defineProps<{
     <div>
       <b>Branch name:</b>
       <br />
-      <div class="flex justify -between align -center">
+      <div class="flex justify-between align-center">
         {{ props.branchName }}
         <ButtonIcon @click="() => copyTextToClipboard(props.branchName)">
           <IconClipboard />
@@ -26,14 +26,14 @@ const props = defineProps<{
     <div>
       <b>Pull Request title:</b>
       <br />
-      <div class="flex justify -between align -center">
+      <div class="flex justify-between align-center">
         {{ props.requestTitle }}
         <ButtonIcon @click="() => copyTextToClipboard(props.requestTitle)">
           <IconClipboard />
         </ButtonIcon>
       </div>
     </div>
-    <CodeSection @click="() => copyTextToClipboard(props.branchName)">
+    <CodeSection @click="() => copyTextToClipboard(`git checkout -b ${ props.branchName }`)">
       git checkout -b {{ props.branchName }}
     </CodeSection>
   </div>

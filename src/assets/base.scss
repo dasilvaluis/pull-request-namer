@@ -33,9 +33,13 @@
   --color-heading: var(--vt-c-text-light-1);
   --color-text: var(--vt-c-text-light-1);
 
-  --color-icon: var(--vt-c-text-light-2);
+  --color-icon: var(--vt-c-black-soft);
+
+  --color-link: var(--vt-c-black-soft);
+  --color-link-hover: var(--vt-c-black);
 
   --color-button-bg: 'transparent';
+  --color-button-bg-hover: rgba(0, 0, 0, 0.1);
 
   --section-gap: 160px;
 }
@@ -52,7 +56,10 @@
     --color-heading: var(--vt-c-text-dark-1);
     --color-text: var(--vt-c-text-dark-2);
 
-    --color-icon: var(--vt-c-text-dark-2);
+    --color-icon: var(--vt-c-white-soft);
+
+    --color-link: var(--vt-c-white-soft);
+    --color-link-hover: var(--vt-c-white);
 
     --color-button-bg-hover: rgba(255, 255, 255, 0.1);
   }

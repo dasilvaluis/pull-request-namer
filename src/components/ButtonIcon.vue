@@ -22,11 +22,6 @@ button {
   will-change: background-color;
   transition: 150ms background-color;
 
-  i {
-    color: var(--color-icon);
-    fill: var(--color-icon);
-  }
-
   &:hover {
     background-color: var(--color-button-bg-hover);
   }
